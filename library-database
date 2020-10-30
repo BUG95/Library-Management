@@ -27,11 +27,11 @@ CREATE TABLE book_avalaible_quantities(
 );
 
 INSERT INTO students (name, college) VALUES ('Andrei Popescu', 'Biology'),
-											('Marian Ionescu', 'Mathematics'),
-											('George Anton', 'Geography');
+					    ('Marian Ionescu', 'Mathematics'),
+					    ('George Anton', 'Geography');
 			
 INSERT INTO books (title, author) VALUES ('A Mathematician\'s Apology', 'G. H. Hardy'),
-										                     ('Principles of mathematical analysis', 'Walter Rudin'),
+				         ('Principles of mathematical analysis', 'Walter Rudin'),
                                          ('History of the World Map by Map', 'Peter Snow'),
                                          ('National Geographic Little Kids First Big Book of Where', 'Jill Esbaum'),
                                          ('Behave: The Biology of Humans at Our Best and Worst', 'Robert Sapolsky'),
