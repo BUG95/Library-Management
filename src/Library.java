@@ -174,6 +174,8 @@ public class Library extends JFrame implements ActionListener {
 
          searchStudentButton = new JButton("Search stud");
          showAllStudentsButton = new JButton("Show all stud");
+         searchStudentButton.setFocusPainted(false);
+         showAllStudentsButton.setFocusPainted(false);
          searchStudentButton.setBounds(10, 60 + 3 * fm.getHeight(), fm.stringWidth(showAllStudentsButton.getText()) + 20, fm.getHeight() + (fm.getHeight()) / 2);
          searchStudentPanel.add(searchStudentButton);
 
@@ -250,7 +252,7 @@ public class Library extends JFrame implements ActionListener {
          showAllBooksButton.setBackground(new Color(105, 255, 255));
          showAllBooksButton.setForeground(Color.BLACK);
          editBookButton.setBackground(new Color(51, 204, 51));
-         editBookButton.setForeground(Color.BLACK);;
+         editBookButton.setForeground(Color.BLACK);
          deleteBookButton.setBackground(new Color(255, 0, 102));
          deleteBookButton.setForeground(Color.WHITE);
          addBookButton.setBackground(new Color(51, 204, 51));
